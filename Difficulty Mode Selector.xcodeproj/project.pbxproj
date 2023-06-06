@@ -15,6 +15,7 @@
 		E47989012A2FE9D600739377 /* DifficultyModeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47988FE2A2FE9D600739377 /* DifficultyModeButton.swift */; };
 		E47989022A2FE9D600739377 /* DifficultyMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47988FF2A2FE9D600739377 /* DifficultyMode.swift */; };
 		E47989042A2FE9F100739377 /* FontExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47989032A2FE9F100739377 /* FontExtentions.swift */; };
+		E47989062A2FEC0C00739377 /* Inter-VariableFont_slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E47989052A2FEC0C00739377 /* Inter-VariableFont_slnt,wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		E47988FE2A2FE9D600739377 /* DifficultyModeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyModeButton.swift; sourceTree = "<group>"; };
 		E47988FF2A2FE9D600739377 /* DifficultyMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyMode.swift; sourceTree = "<group>"; };
 		E47989032A2FE9F100739377 /* FontExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontExtentions.swift; sourceTree = "<group>"; };
+		E47989052A2FEC0C00739377 /* Inter-VariableFont_slnt,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-VariableFont_slnt,wght.ttf"; sourceTree = "<group>"; };
+		E47989072A2FEC2F00739377 /* Difficulty-Mode-Selector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Difficulty-Mode-Selector-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 		E47988E82A2FD8B300739377 /* Difficulty Mode Selector */ = {
 			isa = PBXGroup;
 			children = (
+				E47989072A2FEC2F00739377 /* Difficulty-Mode-Selector-Info.plist */,
+				E47989052A2FEC0C00739377 /* Inter-VariableFont_slnt,wght.ttf */,
 				E47989032A2FE9F100739377 /* FontExtentions.swift */,
 				E47988FF2A2FE9D600739377 /* DifficultyMode.swift */,
 				E47988FE2A2FE9D600739377 /* DifficultyModeButton.swift */,
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E47988F12A2FD8B500739377 /* Preview Assets.xcassets in Resources */,
+				E47989062A2FEC0C00739377 /* Inter-VariableFont_slnt,wght.ttf in Resources */,
 				E47988EE2A2FD8B500739377 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +292,7 @@
 				DEVELOPMENT_TEAM = BW62R7MWZ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Difficulty-Mode-Selector-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,6 +322,7 @@
 				DEVELOPMENT_TEAM = BW62R7MWZ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Difficulty-Mode-Selector-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
