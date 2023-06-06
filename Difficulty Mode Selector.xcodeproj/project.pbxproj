@@ -11,6 +11,10 @@
 		E47988EC2A2FD8B300739377 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47988EB2A2FD8B300739377 /* ContentView.swift */; };
 		E47988EE2A2FD8B500739377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47988ED2A2FD8B500739377 /* Assets.xcassets */; };
 		E47988F12A2FD8B500739377 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47988F02A2FD8B500739377 /* Preview Assets.xcassets */; };
+		E47989002A2FE9D600739377 /* DifficultyModeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47988FD2A2FE9D600739377 /* DifficultyModeDemo.swift */; };
+		E47989012A2FE9D600739377 /* DifficultyModeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47988FE2A2FE9D600739377 /* DifficultyModeButton.swift */; };
+		E47989022A2FE9D600739377 /* DifficultyMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47988FF2A2FE9D600739377 /* DifficultyMode.swift */; };
+		E47989042A2FE9F100739377 /* FontExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47989032A2FE9F100739377 /* FontExtentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		E47988EB2A2FD8B300739377 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E47988ED2A2FD8B500739377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E47988F02A2FD8B500739377 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E47988FD2A2FE9D600739377 /* DifficultyModeDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyModeDemo.swift; sourceTree = "<group>"; };
+		E47988FE2A2FE9D600739377 /* DifficultyModeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyModeButton.swift; sourceTree = "<group>"; };
+		E47988FF2A2FE9D600739377 /* DifficultyMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyMode.swift; sourceTree = "<group>"; };
+		E47989032A2FE9F100739377 /* FontExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontExtentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,10 @@
 		E47988E82A2FD8B300739377 /* Difficulty Mode Selector */ = {
 			isa = PBXGroup;
 			children = (
+				E47989032A2FE9F100739377 /* FontExtentions.swift */,
+				E47988FF2A2FE9D600739377 /* DifficultyMode.swift */,
+				E47988FE2A2FE9D600739377 /* DifficultyModeButton.swift */,
+				E47988FD2A2FE9D600739377 /* DifficultyModeDemo.swift */,
 				E47988E92A2FD8B300739377 /* Difficulty_Mode_SelectorApp.swift */,
 				E47988EB2A2FD8B300739377 /* ContentView.swift */,
 				E47988ED2A2FD8B500739377 /* Assets.xcassets */,
@@ -137,6 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47989002A2FE9D600739377 /* DifficultyModeDemo.swift in Sources */,
+				E47989042A2FE9F100739377 /* FontExtentions.swift in Sources */,
+				E47989022A2FE9D600739377 /* DifficultyMode.swift in Sources */,
+				E47989012A2FE9D600739377 /* DifficultyModeButton.swift in Sources */,
 				E47988EC2A2FD8B300739377 /* ContentView.swift in Sources */,
 				E47988EA2A2FD8B300739377 /* Difficulty_Mode_SelectorApp.swift in Sources */,
 			);
