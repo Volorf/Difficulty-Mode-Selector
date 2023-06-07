@@ -1,6 +1,6 @@
 # Difficulty Mode Selector
 
-Difficulty mode selector developed with SwiftUI.
+Difficulty mode selector developed with SwiftUI. Experimented with variable fonts animations.
 
 ![Difficulty Mode Selector](/demo.gif)
 
